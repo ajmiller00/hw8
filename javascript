@@ -133,8 +133,6 @@ function thankYouHelper(timeTillReady) {
 
 	message2 = getItemsOrdered();
 
-	alert("Thank you for your order.\nOrder:" + message2 + "\nTotal: $" + calculateTotals()[2].toFixed(2) + "\n" + message1 + hour + ":" + min);
-
 	newWindow = window.open("");
 	newWindow.document.write("<html><head><title>Thank you!</title>"
 		+ "<style type='text/css'> html {font-family: 'Brush Script MT'; font-size: 35px; margin: 5%;}</style></head>"
